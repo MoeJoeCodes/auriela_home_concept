@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --color-cream: #F6F1EB;
+  --color-beige: #E8DED2;
+  --color-taupe: #C9B8A6;
+  --color-charcoal: #2E2E2E;
+  --color-gold: #C6A572;
+
+  --font-playfair: var(--font-playfair), serif;
+  --font-montserrat: var(--font-montserrat), sans-serif;
+}
+
+body {
+  background-color: var(--color-cream);
+  color: var(--color-charcoal);
+}
